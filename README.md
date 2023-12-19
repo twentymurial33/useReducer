@@ -1,2 +1,1 @@
-# useReducer
-Created with CodeSandbox
+# H1 useReducer TodoApp
