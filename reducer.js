@@ -1,9 +1,11 @@
+import { v4 as uuidv4 } from "uuid";
+
 const initialState = {
   todos: [
-    { id: 1, value: "Buying groceries" },
-    { id: 2, value: "shopping" },
-    { id: 3, value: "playing piano" },
-    { id: 4, value: "walking bella" },
+    { id: uuidv4(), value: "Buying groceries" },
+    { id: uuidv4(), value: "shopping" },
+    { id: uuidv4(), value: "playing piano" },
+    { id: uuidv4(), value: "walking bella" },
   ],
 };
 
